@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-table-v1
+      author: DRI
+      changes:
+        - sqlFile:
+            path: /datasetto-v1.sql
+            relativeToChangelogFile: true
