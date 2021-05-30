@@ -1,8 +1,8 @@
 -- Table: public.requete
 
-DROP TABLE public.requete;
+--DROP TABLE nso.requete;
 
-CREATE TABLE public.requete
+CREATE TABLE nso.requete
 (
     id serial,
     nom_requete character varying(200) COLLATE pg_catalog."default" NOT NULL,
@@ -12,5 +12,5 @@ CREATE TABLE public.requete
 
 TABLESPACE pg_default;
 
-ALTER TABLE public.requete
+ALTER TABLE nso.requete
     OWNER to postgres;

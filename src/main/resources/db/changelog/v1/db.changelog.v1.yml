@@ -1,8 +1,25 @@
 databaseChangeLog:
   - changeSet:
-      id: create-table-v1
+      id: create-table-requete-v1
       author: DRI
       changes:
         - sqlFile:
-            path: /datasetto-v1.sql
+            path: /01-DDL-requete-v1.sql
             relativeToChangelogFile: true
+
+
+#  - changeSet:
+#      id: create-table-si-v1
+#      author: DRI
+#      changes:
+#        - sqlFile:
+#            path: /02-DDL-env-si-v1.sql
+#            relativeToChangelogFile: true
+#
+#  - changeSet:
+#      id: insert-table-env-v1
+#      author: DRI
+#      changes:
+#        - sqlFile:
+#            path: /10-INS-env-v1.sql
+#            relativeToChangelogFile: true
